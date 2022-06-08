@@ -1,12 +1,14 @@
 import NextLink from 'next/link'
 import { Button, Container, Box, Heading, Image, Link, useColorModeValue } from '@chakra-ui/react'
 import { ChevronRightIcon } from  '@chakra-ui/icons'
+import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
 import { BioSection , BioYear } from '../components/bio'
 
 const Page = () => {
 	return (
+		<Layout>
 		<Container>
 			<Box borderRadius="lg" bg={useColorModeValue('whuteAlpha.500', 'whiteAlpha.200')} p={3} mb={6} aling="center">
 				Hello, I&apos;m a physics student from Chile!
@@ -85,6 +87,7 @@ const Page = () => {
 				</Paragraph>
 			</Section>
 		</Container>
+		</Layout>
 	)
 }
 
