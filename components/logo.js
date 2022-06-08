@@ -31,7 +31,7 @@ const Logo = () => {
 						fontWeight="bold"
 						ml={3}
 					>
-						Borja Diez
+						10BlackHole
 					</Text>
 				</LogoBox>
 			</a>
