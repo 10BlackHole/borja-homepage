@@ -11,13 +11,14 @@ import {
 	IoLogoInstagram,
 	IoLogoGithub
 } from 'react-icons/io5'
+import { SiGmail } from "react-icons/si"
 
 const Page = () => {
 	return (
 		<Layout>
 		<Container>
-			<Box borderRadius="lg" bg={useColorModeValue('whuteAlpha.500', 'whiteAlpha.200')} p={3} mb={6} aling="center">
-				Hello, I&apos;m a physics student from Chile!
+			<Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={3} mb={6} aling="center">
+				Welcome to my personal webiste!
 			</Box>
 
 			<Box display={{md: 'flex'}}>
@@ -40,7 +41,7 @@ const Page = () => {
 						maxWidth="100px"
 						display="inline-block"
 						borderRadius="full"
-						src="/images/borja.jpg"
+						src="/images/astronaut-helmet-icon.jpg"
 						alt="Profile Image"
 					/>
 				</Box>
@@ -51,11 +52,7 @@ const Page = () => {
 					Work
 				</Heading>
 				<Paragraph>
-					Borja is a physics student at the University of Concepcion, Chile. His hobbies include taking notes on physics. His latest projects can be found on {' '} 
-					<NextLink href="works/github">
-						<Link>Github</Link>
-					</NextLink>
-					.
+					Borja is a physics student at the University of Concepcion, Chile. His hobbies include taking notes on physics, listen music, play voleyball, watch anime, and coding.
 				</Paragraph>
 				<Box align="center" my={4}>
 					<NextLink href="/works">
@@ -76,7 +73,7 @@ const Page = () => {
 				</BioSection>
 				<BioSection>
 					<BioYear>2019 to present</BioYear>
-					Go to university to study physics.
+					Go to the university to study physics.
 				</BioSection>
 			</Section>
 
@@ -89,7 +86,15 @@ const Page = () => {
 					<Link href="https://open.spotify.com/playlist/1ZpvW0jQkqGu1Aekakkb9r?si=60f2d27317a74a01">
 						Music
 					</Link>
-					, Write.
+					, Anime, Voleyball,{' '}
+					<Link href="https://github.com/10BlackHole">
+						Code
+					</Link>
+					, and {' '}
+					<Link href="https://github.com/10BlackHole/config/blob/main/.vimrc">
+						Vim (Neovim)
+					</Link>
+					.
 				</Paragraph>
 			</Section>
 
@@ -131,6 +136,17 @@ const Page = () => {
 							</Button>
 						</Link>
 					</ListItem>
+					<ListItem>
+						<Link href="https://mail.google.com/mail/u/0/#inbox" target="_blank">
+							<Button
+								variant="ghost"
+								colorScheme="teal"
+								leftIcon={<Icon as={SiGmail} />}
+							>
+								borjadiez1014@gmail.com
+							</Button>
+						</Link>
+					</ListItem>
 				</List>
 			</Section>
 		</Container>
@@ -139,4 +155,3 @@ const Page = () => {
 }
 
 export default Page
-

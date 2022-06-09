@@ -3,7 +3,8 @@ import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 import Layout from '../components/layouts/article'
 
-import thumbQM from '../public/images/works/qm.png'
+//import thumbQM from '../public/images/works/qm.png'
+import thumbQM from '../public/images/works/qm3.png'
 import thumbEM from '../public/images/works/em.png'
 
 const Works = () => {
