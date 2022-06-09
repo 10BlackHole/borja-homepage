@@ -1,5 +1,5 @@
 import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
-import Layout '../components/layouts/article'
+import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
 
@@ -11,14 +11,14 @@ const Posts = () => (
 			<Heading as="h4" fontSize={20} mb={4}>
 				Popular Posts
 			</Heading>
-			<Section delay={0.1}
-			<SimpleGrid columns={[1,2,2]} gap={6}>
-				<GridItem
-					title="How to buld a portfolio"
-					thumbnail={thumbPortfolio}
-					href="https://www.youtube.com/watch?v=bSMZgXzC9AA"
-				/>
-			</SimpleGrid>
+			<Section delay={0.1}>
+				<SimpleGrid columns={[1,2,2]} gap={6}>
+					<GridItem
+						title="How to buld a portfolio"
+						thumbnail={thumbPortfolio}
+						href="https://www.youtube.com/watch?v=bSMZgXzC9AA"
+					/>
+				</SimpleGrid>
 			</Section>
 		</Container>
 	</Layout>
