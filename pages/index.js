@@ -41,7 +41,7 @@ const Page = () => {
 						maxWidth="100px"
 						display="inline-block"
 						borderRadius="full"
-						src="/images/astronaut-helmet-icon.jpg"
+						src="/images/borja.jpg"
 						alt="Profile Image"
 					/>
 				</Box>
@@ -55,7 +55,7 @@ const Page = () => {
 					Borja is a physics student at the University of Concepcion, Chile. His hobbies include taking notes on physics, listen music, play voleyball, watch anime, and coding.
 				</Paragraph>
 				<Box align="center" my={4}>
-					<NextLink href="/works">
+					<NextLink href="/notes">
 					<Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
 						My portfolio
 					</Button>
@@ -122,28 +122,6 @@ const Page = () => {
 								leftIcon={<Icon as={IoLogoTwitter} />}
 							>
 								@10BlackHole1
-							</Button>
-						</Link>
-					</ListItem>
-					<ListItem>
-						<Link href="https://instagram.com/__borja10__" target="_blank">
-							<Button
-								variant="ghost"
-								colorScheme="teal"
-								leftIcon={<Icon as={IoLogoInstagram} />}
-							>
-								@__borja10__
-							</Button>
-						</Link>
-					</ListItem>
-					<ListItem>
-						<Link href="https://mail.google.com/mail/u/0/#inbox" target="_blank">
-							<Button
-								variant="ghost"
-								colorScheme="teal"
-								leftIcon={<Icon as={SiGmail} />}
-							>
-								borjadiez1014@gmail.com
 							</Button>
 						</Link>
 					</ListItem>
