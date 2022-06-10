@@ -8,10 +8,10 @@ import { BioSection , BioYear } from '../components/bio'
 //import { GridItem } from '../components/grid-item'
 import {
 	IoLogoTwitter,
-	IoLogoInstagram,
+	//IoLogoInstagram,
 	IoLogoGithub
 } from 'react-icons/io5'
-import { SiGmail } from "react-icons/si"
+//import { SiGmail } from "react-icons/si"
 
 const Page = () => {
 	return (
