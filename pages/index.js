@@ -126,7 +126,6 @@ const Page = () => {
 						</Link>
 					</ListItem>
 					<ListItem>
-						<Link href="https://mail.google.com/mail/u/0/#inbox" target="_blank">
 							<Button
 								variant="ghost"
 								colorScheme="teal"
@@ -134,7 +133,6 @@ const Page = () => {
 							>
 								@borjadiez1014@gmail.com
 							</Button>
-						</Link>
 					</ListItem>
 				</List>
 			</Section>
