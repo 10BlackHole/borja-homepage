@@ -11,13 +11,13 @@ import {
 	//IoLogoInstagram,
 	IoLogoGithub
 } from 'react-icons/io5'
-//import { SiGmail } from "react-icons/si"
+import { SiGmail } from "react-icons/si"
 
 const Page = () => {
 	return (
 		<Layout>
 		<Container>
-			<Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={3} mb={6} aling="center">
+			<Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={1} mb={6} align="center">
 				Welcome to my personal webiste!
 			</Box>
 
@@ -122,6 +122,17 @@ const Page = () => {
 								leftIcon={<Icon as={IoLogoTwitter} />}
 							>
 								@10BlackHole1
+							</Button>
+						</Link>
+					</ListItem>
+					<ListItem>
+						<Link href="https://mail.google.com/mail/u/0/#inbox" target="_blank">
+							<Button
+								variant="ghost"
+								colorScheme="teal"
+								leftIcon={<Icon as={SiGmail} />}
+							>
+								@borjadiez1014@gmail.com
 							</Button>
 						</Link>
 					</ListItem>

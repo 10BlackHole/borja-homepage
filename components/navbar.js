@@ -74,6 +74,9 @@ const Navbar = props => {
 					<LinkItem href="/posts" path={path}>
 							Posts
 					</LinkItem>
+					<LinkItem href="/wallpapers" path={path}>
+						Wallpapers
+					</LinkItem>
 				</Stack>
 
 				<Box flex={1} align="right">
@@ -98,6 +101,9 @@ const Navbar = props => {
 									<MenuItem as={Link}>Posts</MenuItem>
 								</NextLink>
 									<MenuItem as={Link} href="https://github.com/10BlackHole">View Source
+								<NextLink href="/wallpapers" passHref>
+									<MenuItem as={Link}>Wallpapers</MenuItem>
+								</NextLink>
 									</MenuItem>
 							</MenuList>
 						</Menu>
